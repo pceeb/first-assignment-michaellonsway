@@ -21,7 +21,7 @@ II. Answer the following question. What does this do?
 11. top     This is a task manager program that shows information about the CPU and memory utilization
 12. ls | grep .sh | xargs mv /tmp     This will move all the shell scripts in the current directory to the temporary directory
 13. du -sk /home/* | sort -r -n | head -10     This will sort the files of the home directory numerically by size in reverse and then display the first 10 lines
-14. sort -r names.txt     This will sort the lines within the names.txt file in reverse and print the result
+14. sort -r names.txt   This will sort the lines within the names.txt file in reverse and print the result
 
 **IMPORTANT** 
 To submit your answers you must do the following:
