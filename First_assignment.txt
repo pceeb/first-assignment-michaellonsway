@@ -8,20 +8,20 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*     This will list the files in the directories A-Z
-2. cp *.sh /tmp     This will copy a file from *.sh to /tmp
+1. ls [A-Z]*     This will list all the files in the directory that are uppercase
+2. cp *.sh /tmp     This will copy all the shell scripts in the current directory to the temporary directory
 3. man pwd     This will show the help page of the pathway command
-4. cd ~     This will move the directory to home
-5. mkdir -p /test1/test2/test3     This will create the directories test 1,2, and 3
+4. cd ~     This will move you to the home directory
+5. mkdir -p /test1/test2/test3     This will create the directories test 1,2, and 3. Test 1 contains the directory test 2 and test 2 contains the directory test 3 
 6. cp -r /tmp .     This will copy the /tmp directory recursively 
-7. ls | less     This will display the contents of a text file
-8. head -n 24 test.txt » abc.txt     This will print the first few lines of the test.txt file
-9. echo "aaa" > aaa.txt     This will append aaa to the aaa.txt file
-10. ps -u sallesina     This will display the current running processes of sallesina
+7. ls | less     This will display the contents of the directory in less
+8. head -n 24 test.txt » abc.txt     This will redirect the first 24 lines of the test.txt file to the abc.txt file
+9. echo "aaa" > aaa.txt     This will print aaa to the aaa.txt file
+10. ps -u sallesina     This will display a screenshot of the current running processes of the sallesina file
 11. top     This is a task manager program that shows information about the CPU and memory utilization
-12. ls | grep .sh | xargs mv /tmp     This will display the temporary files matching this pattern
-13. du -sk /home/* | sort -r -n | head -10     This will print the first 10 files matching this pattern
-14. sort -r names.txt     This will sort the lines of the names.txt file and print the result
+12. ls | grep .sh | xargs mv /tmp     This will move all the shell scripts in the current directory to the temporary directory
+13. du -sk /home/* | sort -r -n | head -10     This will sort the files of the home directory numerically by size in reverse and then display the first 10 lines
+14. sort -r names.txt     This will sort the lines within the names.txt file in reverse and print the result
 
 **IMPORTANT** 
 To submit your answers you must do the following:
